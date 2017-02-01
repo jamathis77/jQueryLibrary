@@ -27,8 +27,8 @@ $(document).ready(function(){
 		});
 	});
 
-	//considering defining your callback function earlier
-	//in your js file to clean up your code
+	// considering defining your callback function earlier
+	// in your js file to clean up your code
 	function changeColor(){
 		$(this).animate({"background-color": "red"});
 	}
